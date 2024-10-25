@@ -12,3 +12,5 @@ SELECT
  sentiment AS review_sentiment
 FROM
  raw_reviews
+
+ -- random comment
