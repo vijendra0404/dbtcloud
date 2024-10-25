@@ -36,8 +36,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  RKD_Demo:
-    # Applies to all files under models/example/
   src:
-        database: "{{ env_var('DBT_DB') }}"
-        schema: "{{ env_var('DBT_SCHEMA') }}"
+    database: "{{ env_var('DBT_DB') }}"
+    schema: "{{ env_var('DBT_SCHEMA') }}"
