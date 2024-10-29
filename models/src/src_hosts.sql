@@ -13,5 +13,4 @@ SELECT
 FROM
  raw_hosts
 
- --use less comment
- --use less comments and some more .
+--removed useless comment
