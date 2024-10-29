@@ -16,3 +16,6 @@ SELECT
  updated_at
 FROM
  raw_listings
+
+
+ -- updating some random comments to test
