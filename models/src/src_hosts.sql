@@ -12,7 +12,3 @@ SELECT
  updated_at
 FROM
  raw_hosts
-
-
-
- -- whole lot of comments being added 
