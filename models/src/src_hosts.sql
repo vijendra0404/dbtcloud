@@ -9,6 +9,7 @@ SELECT
  NAME AS host_name,
  --is_superhost,
  created_at,
- updated_at
+ updated_at,
+ alter_ts
 FROM
  raw_hosts
