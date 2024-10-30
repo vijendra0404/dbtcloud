@@ -7,11 +7,10 @@ WITH raw_hosts AS (
 SELECT
  id AS host_id,
  NAME AS host_name,
- is_superhost,
+ -- is_superhost,
  created_at,
  updated_at,
  alter_ts
 FROM
  raw_hosts
-
--- comment for is_superhost removed
+-- Rajesh Code change
